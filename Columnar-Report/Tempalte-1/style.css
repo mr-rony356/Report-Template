@@ -1,6 +1,83 @@
-.table{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&family=Roboto:wght@700&display=swap');
+
+
+table{
     width: 100%;
+    border: 2px solid rgb(46, 112, 112);
+    box-shadow:   5px  5px 10px  rgb(146, 139, 139);
+    margin-bottom: 30PX;
+    
+    
 }
-.table th, td{
-    border: 2x solid black;
+table tr th, table tr td{
+    font-size: 13px;
+    
+
+}
+.header{
+    margin-top: 150px;
+}
+ h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    display: inline-block;
+    color: rgb(16, 157, 200);
+    
+
+}
+h5{
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.heading{
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+table tr td{
+    font-weight: 500;
+    background-color: rgb(187, 223, 239);
+
+    
+
+}
+table tr th{
+    font-weight:bolder ;
+    /* border: 2px solid rgb(69, 210, 210); */
+    
+
+}
+.line1{
+    display: flex;
+    margin-top: 200px;
+    
+}
+.row-one{
+    background-color: rgb(13, 97, 154);
+    color: aliceblue;
+}
+#right{
+    padding-right: 400px;
+}
+.line1 p{
+    font-weight: 500;
+    color:rgb(133, 66, 66);
+}
+@media screen and  (max-width: 1200px){
+
+table tr th, td{
+    font-size: 11px;
+    
+}
+.line1 p{
+    font-size: 12px;
+}
+
+
 }
